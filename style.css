@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --primary-color: #0c3375;
-  --light-blue: #16bdbd;
-  --light-green: #99f5df;
+  --primary-color: #58cfb9;
+  --light-blue: #34999e;
+  --light-green: #e0ebe8;
 }
 
 * {
@@ -17,6 +17,18 @@
 }
 
 /* Homepage */
+.landing-page {
+    background: url('images/sebastinabright.jpg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    background-color: #58cfb9b4;
+}
+
 nav .collapse ul li {
   transition: 0.2s ease-in-out;
 }
@@ -144,7 +156,6 @@ nav .collapse ul li:hover {
   line-height: 2.2rem;
   font-weight: 500;
   max-width: 70%;
-  color: var(--primary-color);
 }
 
 /* Email */

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --primary-color: #103E8D;
+    --primary-color: #0c3375;
+    --light-blue: #16bdbd;
 }
 
 *{
@@ -14,10 +15,46 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Homepage */
 nav .collapse ul li {
     transition: .2s ease-in-out;
 }
 
 nav .collapse ul li:hover {
     transform: translateY(-3px);
+}
+
+.showcase .showcase-text {
+    color: var(--primary-color);
+}
+
+.showcase h1 span {
+    color: var(--light-blue);
+}
+
+.showcase .showcase-text .socials {
+    cursor: pointer;
+}
+
+.showcase .showcase-text .socials i:hover {
+    transition: .2s ease-in-out;
+}
+
+.showcase .showcase-text .socials i:hover {
+    color: var(--light-blue);
+}
+
+.showcase .showcase-text button {
+    background-color: var(--primary-color);
+    transition: .2s ease-in-out;
+}
+
+.showcase .showcase-text button:hover {
+    background-color: var(--light-blue);
+}
+
+
+/* Skills*/
+.skills .big-title h1 {
+    color: var(--primary-color);
 }

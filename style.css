@@ -49,6 +49,10 @@ nav .collapse ul li:hover {
   cursor: pointer;
 }
 
+.showcase .showcase-text .socials a {
+  color: var(--primary-color);
+}
+
 .showcase .showcase-text .socials i:hover {
   transition: 0.2s ease-in-out;
 }

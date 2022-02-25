@@ -98,3 +98,23 @@ nav .collapse ul li:hover {
     height: 10rem;
     width: 100%;
 }
+
+/* Projects */
+.projects .big-title {
+    color: var(--primary-color);
+}
+
+.projects .project1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.projects .project2 {
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+}
+
+.projects p {
+    max-width: 70%;
+}

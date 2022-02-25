@@ -53,6 +53,21 @@ nav .collapse ul li:hover {
     background-color: var(--light-blue);
 }
 
+/* About Me */
+.about-me {
+    background: linear-gradient(90deg,  #acf8e6 50%, #FFFF 50%);
+    margin-bottom: 4rem;
+}
+
+.about-me .mydesc {
+    margin-right: 2rem;
+}
+
+.about-me .mydesc h4 {
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
 
 /* Skills*/
 .skills {

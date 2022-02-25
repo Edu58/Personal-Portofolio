@@ -60,6 +60,15 @@ nav .collapse ul li:hover {
   margin-bottom: 4rem;
 }
 
+.about-me .content .big-title, .about-me .content .myname h2, .about-me .content .mydesc h4 {
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.about-me .content .mydesc p {
+    font-weight: 500;
+}
+
 .about-me .mydesc {
   margin-right: 2rem;
 }
@@ -160,6 +169,10 @@ nav .collapse ul li:hover {
     margin-top: 4rem;
     background: linear-gradient(180deg, var(--light-green) 100%, #ffff 50%);
     padding-top: 2rem;
+  }
+
+  .about-me .content .big-title {
+      margin-bottom: 3rem;
   }
 
   .about-me .content .myself {

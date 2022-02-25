@@ -149,4 +149,21 @@ nav .collapse ul li:hover {
         flex-direction: column;
         margin-top: 10rem;
     }
+
+    .about-me{
+        background: linear-gradient(180deg,  var(--light-green) 100%, #FFFF 50%);
+        padding-top: 2rem;
+    }
+
+    .about-me .content .myself {
+        flex-direction: column-reverse;
+    }
+
+    .about-me .content .myself .mydesc {
+        margin-top: 4rem;
+    }
+
+    .about-me .content .myself img {
+        margin: auto;
+    }
 }

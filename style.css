@@ -55,6 +55,31 @@ nav .collapse ul li:hover {
 
 
 /* Skills*/
+.skills {
+    background-color: #fafaff;
+}
+
 .skills .big-title h1 {
+    padding-top: 1rem;
     color: var(--primary-color);
+}
+
+.skills .skills-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.skills .skills-cards .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f1f1f154;
+    margin: 2rem 3rem;
+}
+
+.skills .skills-cards .card img {
+    padding-top: 1rem;
+    height: 10rem;
+    width: 100%;
 }

@@ -129,6 +129,7 @@ nav .collapse ul li:hover {
     line-height: 2.2rem;
     font-weight: 500;
     max-width: 70%;
+    color: var(--primary-color);
 }
 
 /* Email */
@@ -137,4 +138,15 @@ nav .collapse ul li:hover {
     color: var(--primary-color);
     height: 30vh;
     background-color: var(--light-green);
+}
+
+
+/* Media Queries for mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .showcase {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10rem;
+    }
 }

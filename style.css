@@ -133,6 +133,12 @@ nav .collapse ul li:hover {
   margin-left: 2rem;
 }
 
+.projects .project1 .card .card-body a:hover, .projects .project2 .card .card-body a:hover {
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+    outline: none;
+}
+
 .projects .project1 p,
 .projects .project2 p {
   line-height: 2.2rem;
@@ -145,8 +151,15 @@ nav .collapse ul li:hover {
 .email {
   margin-top: 8rem;
   color: var(--primary-color);
-  height: 30vh;
   background-color: var(--light-green);
+}
+
+.email form button {
+    background-color: var(--primary-color);
+}
+
+.email form button:hover {
+    background-color: var(--light-blue);
 }
 
 /* Media Queries for mobile responsiveness */
@@ -192,6 +205,10 @@ nav .collapse ul li:hover {
     grid-template-columns: auto;
   }
 
+  .email form {
+      min-width: 50%;
+  }
+
   footer {
     flex-direction: column;
   }
@@ -210,5 +227,9 @@ nav .collapse ul li:hover {
 
   .projects .project1 .card, .projects .project2 .card {
     margin-bottom: 2rem;
+  }
+
+  .email form {
+      min-width: 80%;
   }
 }

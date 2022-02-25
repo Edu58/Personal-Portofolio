@@ -171,4 +171,16 @@ nav .collapse ul li:hover {
         display: grid;
         grid-template-columns: auto;
     }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer em {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
 }

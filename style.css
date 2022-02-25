@@ -115,6 +115,16 @@ nav .collapse ul li:hover {
     align-items: center;
 }
 
-.projects p {
+.projects .project1 .card {
+    margin-right: 2rem;
+}
+
+.projects .project2 .card {
+    margin-left: 2rem;
+}
+
+.projects .project1 p, .projects .project2 p {
+    line-height: 2rem;
+    font-weight: 400;
     max-width: 70%;
 }

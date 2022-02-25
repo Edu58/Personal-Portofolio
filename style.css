@@ -166,4 +166,9 @@ nav .collapse ul li:hover {
     .about-me .content .myself img {
         margin: auto;
     }
+
+    .skills .skills-cards {
+        display: grid;
+        grid-template-columns: auto;
+    }
 }

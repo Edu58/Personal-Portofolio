@@ -3,6 +3,7 @@
 :root {
     --primary-color: #0c3375;
     --light-blue: #16bdbd;
+    --light-green: #99f5df;
 }
 
 *{
@@ -55,7 +56,7 @@ nav .collapse ul li:hover {
 
 /* About Me */
 .about-me {
-    background: linear-gradient(90deg,  #acf8e6 50%, #FFFF 50%);
+    background: linear-gradient(90deg,  var(--light-green) 50%, #FFFF 50%);
     margin-bottom: 4rem;
 }
 
@@ -128,4 +129,12 @@ nav .collapse ul li:hover {
     line-height: 2rem;
     font-weight: 400;
     max-width: 70%;
+}
+
+/* Email */
+.email {
+    margin-top: 8rem;
+    color: var(--primary-color);
+    height: 30vh;
+    background-color: var(--light-green);
 }

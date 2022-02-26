@@ -1,14 +1,17 @@
-## Project -  Personal Portfolio
+## Project - Personal Portfolio
+
 ### Author - Edu58
+
 ### Live link - https://edu58.github.io/Personal-Portofolio/
 
 ## Description
-![homepage](/images/homepage.png)
+
+![homepage-screenshot](images/homepage.png)
 
 This project is a personal portfolio made in HTML, CSS and Bootsrap. No Javascript is used in this project. Other technologies used in this project include Fontawesome icons and Google Fonts (Montserrat).
 The project is fully mobile responsive thanks to bootstrap and some media queries.
 
-![mobile](/images/mobile-homepage.png)
+![mobile-screenshot](images/mobile-homepage.png)
 
 ## Project Setup
 
@@ -19,6 +22,7 @@ git clone https://github.com/Edu58/Personal-Portofolio.git
 To run the project, clone the repo to your PC/Mac using the command above or donwlad a zip file.. Unzip the files if zipped. Then navigate inside the folder and open index.html file in your browser.
 
 #### Copyright and License info
+
 MIT License
 
 Copyright (c) 2022 Edwin Karimi

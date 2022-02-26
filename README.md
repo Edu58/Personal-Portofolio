@@ -3,12 +3,12 @@
 ### Live link - https://edu58.github.io/Personal-Portofolio/
 
 ## Description
-![homepage](images/homepage.png)
+![homepage](/images/homepage.png)
 
 This project is a personal portfolio made in HTML, CSS and Bootsrap. No Javascript is used in this project. Other technologies used in this project include Fontawesome icons and Google Fonts (Montserrat).
 The project is fully mobile responsive thanks to bootstrap and some media queries.
 
-![mobile](images/mobile-homepage.png)
+![mobile](/images/mobile-homepage.png)
 
 ## Project Setup
 

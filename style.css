@@ -247,4 +247,8 @@ nav .collapse ul li:hover {
   .email form {
       min-width: 80%;
   }
+
+  .email .interested {
+    text-align: center;
+  }
 }
